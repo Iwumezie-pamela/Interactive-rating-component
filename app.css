@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+font-family: 'Overpass',
+sans-serif;
+background-color: hsl(216, 12%, 8%);
+margin:1.5rem;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+min-height: 100vh;
+}
+
+.main-container, .thank-you{
+background-color: hsl(213, 19%, 18%);
+border-radius: 15px;
+padding: 1.5rem;
+margin-bottom: 4rem;
+max-width: 400px;
+}
+
+.main-container img{
+background-color:hsl(213, 20%, 22%);
+    padding: 1rem;
+    border-radius: 50%;
+   margin-bottom: 1rem;
+}
+
+.main-container h2{
+    color: #fff;
+    font-size:2rem ;
+    margin-bottom: 1.1rem;
+}
+
+.main-container p{
+    color: hsl(217, 12%, 63%);
+    line-height: 1.6rem;
+    margin-bottom:2rem ;
+    font-size: 1.1rem;
+}
+
+.main-container ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-container ul li button{
+background-color:hsl(213, 20%, 22%);
+border: none;
+border-radius: 50%;
+margin-bottom:1.7rem;
+width: 3rem;
+height: 3rem;
+font-size: 1rem;
+color:hsl(217, 12%, 63%);
+transition:.3s;
+cursor: pointer;
+}
+
+.main-container ul li button:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.main-container ul li button:focus{
+    background-color:hsl(217, 12%, 63%);
+    color: white;
+}
+
+.main-container .btn-submit{
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 30px;
+    border: none;
+color:#fff;
+font-family: inherit;
+font-weight: 700;
+    width: 100%;
+    height: 55px;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+cursor: pointer;
+transition:.3s;
+}
+
+.main-container .btn-submit:hover{
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+}
+
+.thank-you.hidden{
+    display: none;
+}
+
+.thank-you{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.thank-you img{
+    margin: 0.5rem auto 2rem;
+}
+
+.thank-you p.thanks-para{
+    background-color:hsl(213, 20%, 22%);
+    color: hsl(25, 97%, 53%);
+border-radius: 30px;
+display: block;
+text-align: center;
+padding: 5px 15px;
+letter-spacing: 0.5px;
+margin-bottom:1.5rem ;
+}
+
+.thank-you h2{
+    color: #fff;
+    font-size:2rem;
+    margin-bottom: 1.1rem;
+}
+
+.thank-you p {
+    color: hsl(217, 12%, 63%);
+    line-height: 1.6rem;
+    margin-bottom:2rem;
+    font-size: 1.1rem;
+}
+
+.thank-you .rate-again{
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 30px;
+    border: none;
+    color:#fff;
+    font-family: inherit;
+    font-weight: 700;
+    width: 100%;
+    height: 55px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition:.3s;
+}
+
+.thank-you .rate-again:hover{
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+}
+
+
+
+
+.attribution {
+    font-size: 14px;
+    text-align: center;
+    color:hsl(210, 15%, 82%);
+
+}
+
+.attribution a {
+    color:white;
+}
